@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Additional packages and services in the ISO
-PKGS='bzip2 cryptsetup curl ddrescue gnupg2 git gptfdisk gzip efibootmgr lvm2 lz4 makepasswd mdadm mosh nano p7zip python3 rsync wget vim unzip xz zip zstd'
+PKGS='bzip2 cryptsetup curl ddrescue gnupg2 git gptfdisk gzip efibootmgr lvm2 lz4 makepasswd mdadm mosh nano p7zip python3 rsync wget vim unzip xz zip zstd neovim emacs duf ncdu obconfig vnstat bmon tmux tilix syncthing rclone tint2 nitrogen rxvt xorg obconf openbox'
 SERVICES=''
 
 # Base packages and services required for livecd
